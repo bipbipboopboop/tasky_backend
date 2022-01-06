@@ -18,7 +18,7 @@ class Api::V1::TasksController < ApplicationController
     @task = Task.new(task_params)
 
     if @task.save
-      render json: @task, status: :created, location: @task
+      render json: @task, status: :created, location: api_v1_tasks_path(@task)
     else
       render json: @task.errors, status: :unprocessable_entity
     end
