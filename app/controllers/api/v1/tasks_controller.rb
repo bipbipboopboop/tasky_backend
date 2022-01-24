@@ -57,6 +57,6 @@ class Api::V1::TasksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def task_params
-      params.require(:task).permit(:title, :description, :start_time, :end_time)
+      params.require(:task).permit(:title, :description, :tag, :start_time, :end_time)
     end
 end

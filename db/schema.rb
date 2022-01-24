@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_23_162536) do
+ActiveRecord::Schema.define(version: 2022_01_24_031431) do
 
   create_table "jwt_denylist", force: :cascade do |t|
     t.string "jti", null: false
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2022_01_23_162536) do
     t.integer "user_id"
     t.datetime "start_time"
     t.datetime "end_time"
+    t.string "tag"
     t.index ["user_id"], name: "index_tasks_on_user_id"
   end
 
