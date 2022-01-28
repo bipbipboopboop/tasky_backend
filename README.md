@@ -1,24 +1,5 @@
-# README
+Name : Ethan Chen Ee Shuen
+Matric Number : A0219810J
+Website : https://cvwo-tasky.netlify.app/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link to Frontend GitHub repo: https://github.com/bipbipboopboop/tasky_frontend
